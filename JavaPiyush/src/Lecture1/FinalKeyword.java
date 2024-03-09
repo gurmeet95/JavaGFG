@@ -2,7 +2,7 @@ package Lecture1;
 
 public class FinalKeyword {
 	
-	//1. Constants/Variable = These can be define while declaring or constructor.
+	//1. Constants/Variable = These can be define while declaring or in the constructor.
 	//2. Functions.  = can not be overridden in child classes
 	//3. Classes   = can not be extended.(All the functions are final automaticaly)
 	

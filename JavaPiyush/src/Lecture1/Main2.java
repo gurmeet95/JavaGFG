@@ -7,7 +7,7 @@ public class Main2 {
          DefaultExample d1=new DefaultExample();
          d1.print();
          
-         System.out.println(d1.sum(1, 7));
+         System.out.println(d1.sum(4,6));
 	}
 
 }

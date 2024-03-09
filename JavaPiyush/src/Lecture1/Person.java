@@ -49,7 +49,7 @@ public class Person {
 		Person person2=new Person(13,"Sumit");
 		Person person3=new Person(12,"Gurmeet");
 		
-		System.out.println(person1.equals(person3)); // it compare refrence of object/location.
+	    System.out.println(person1.equals(person3)); // it compare refrence of object/location.
 		
 		System.out.println(person1.hashCode()+"  "+person3.hashCode());
 		//hashcode are unique values on basis of memory reference and some other refrence.
@@ -62,8 +62,8 @@ public class Person {
 		
 		personMap.put(person3,true);
     /* Hashmap doesnot contain same key for two values but here it contain because 
-		 it does not only depend on key and value but also on hashmap and here
-		 hashmap is diffrent for both these values.
+		 it does not only depend on key and value but also on hashcode and here
+		 hashcode is diffrent for both these values.
 		
 		 but for primitive data types a=5; b=5; memory refrence is same and so hashcode is same thats
 		 why they dont allow to duplicate key. */

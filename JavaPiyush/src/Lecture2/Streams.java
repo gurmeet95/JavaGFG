@@ -55,8 +55,12 @@ public class Streams {
     		 .map(integer ->integer*integer)
     		 .reduce(0,(integer,integer2)-> integer2+integer);
        
+       
+       
        // stream does not transform our collection into anything.
      System.out.println(result);
+     
+     
 	}
 
 }

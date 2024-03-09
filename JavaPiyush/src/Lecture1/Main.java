@@ -19,7 +19,7 @@ public class Main {
 		al.add(21);
 		System.out.println(al);
 
-		// Q1. You are given a map of numbers and theif frequency.
+		// Q1. You are given a map of numbers and their frequency.
 		// 2,4
 		// 1,45
 		// 3,50
@@ -64,6 +64,8 @@ public class Main {
 				// TODO Auto-generated method stub
 				return a + b + 1;
 			}
+		
+				
 
 			// @Override
 //		public int subtract(int a, int b) {
@@ -96,7 +98,7 @@ public class Main {
 		}
 	}
 }
-// JDK - Compiles our code  from .java -->  .class
+// JDK - Compiles our code  from .java file to  .class file
 // JRE -  contains JVM where .class files runs.
 // Byte code can be created for main class not for inner class beacuse inner class can be called via main class.
 //Maven is a tool which is used to create jar file.
